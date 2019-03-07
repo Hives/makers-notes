@@ -25,7 +25,7 @@ By the end of the week all developers can:
 
 ### Follow an effective debugging practice
 
-Alice led a debugging workshop. My notes are [here](debugging-workshop.md)
+Alice led a debugging workshop. My notes are [here](debugging-workshop.md). I give a detailed breakdown of using a methodical debugging practice to isolate and fix a bug.
 
 ### Basic OOP
 
