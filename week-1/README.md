@@ -8,6 +8,7 @@ Contents:
   - [Basic OOP](#basic-oop)
 - [Coach wisdom](#coach-wisdom)
 - [Mentor wisdom](#mentor-wisdom)
+- [Pairing feedback](#pairing-feedback)
 
 ## Week 1 goals
 
@@ -30,8 +31,6 @@ Complete this, and seek feedback from a coach.
 What goals did I achieve from this?
 
 ### Pair using the driver navigator style
-
-[Feedback from Matt here... we did ping pong method though...]
 
 ### Follow an effective debugging practice
 
@@ -79,3 +78,15 @@ Luca said that his cohort is currently working on their **portfolio**, which is 
 He advised that it's a good idea to be keeping track of this stuff as you go along, by making notes of what goals you're working on week by week and what evidence you've got to say you've achieved them, as it will be much more difficult to pull up that evidence from work we're doing now in eight weeks time!
 
 Here's Luca's portfolio, jam-packed with well-evidenced goodness: <https://github.com/punchcafe/makers_portfolio>
+
+## Pairing feedback
+
+On Wednesday I paired with Matt Thompson. He said he found that I gave clear explanations of some concepts. For example my explanation of instance variables and `attr_reader` was very helpful in helping him to understand them. He also appreciated my patience when we were going over areas like that that he didn't understand yet.
+- Good explanations shows understanding of concepts
+- Patience when pair is coming to understanding = good pairing
+
+On Thursday I paired with James Palmer. He said he appreciated my pairing technique. We were using a ping pong technique, which he hadn't used before, and he said my prompting to swap the keyboard at short intervals as we alternated writing tests and code was effective in keeping both of us engaged, and not zoning out. It also meant we both had practice writing both the code and the tests.
+- Good pairing
+
+James also said he appreciated that I sometimes went back and wrote further tests for features we had already implemented to reveal deficiencies in our implementation, forcing us improve our code to meet the spec.
+- Good TDD practice
