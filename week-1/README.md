@@ -17,11 +17,17 @@ By the end of the week all developers can:
 - Pair using the driver-navigator style
 - Follow an effective debugging process
 - Describe some basic OO principles like encapsulation, SRP
-  - Alice says we'll be doing a lot of this in Week 2, so less important for Week 1ls
+  - Alice says we'll be doing a lot of this in Week 2, so less important for Week 1
 
 ### Test drive a simple program
 
 We test-drove the Boris Bikes project all week. I paired with ["Kim", "Matt Thompson", "James Palmer", pair4]
+
+I went through the TDD practical exercise <https://diode.makersacademy.com/students/Hives/projects/4492>
+Here are my notes: <https://github.com/Hives/skills-workshops/blob/master/practicals/test_driving.md>
+Complete this, and seek feedback from a coach.
+
+What goals did I achieve from this?
 
 ### Pair using the driver navigator style
 
@@ -32,7 +38,8 @@ We test-drove the Boris Bikes project all week. I paired with ["Kim", "Matt Thom
 Alice led a debugging workshop. I took notes, including a detailed explanation of using a methodical debugging practice to isolate and fix a bug: [debugging workshop notes](debugging-workshop.md)
 
 To do:
-- There were three more bugs in the exercise... fix them using the method outlined
+- There were three more bugs in the exercise... fix them using the method outlined. Here's the exercise: <https://github.com/Hives/skills-workshops/tree/master/week-1/debugging_1>
+- It's on Diode too: <https://diode.makersacademy.com/students/Hives/projects/4531>
 
 ### Basic OOP
 
