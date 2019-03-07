@@ -11,7 +11,7 @@ Be able to:
 
 ## 0: What is a bug?
 
-- Something which is causing **incorrect or unexpected behaviour or results**, or an **unintended behaviour**. <https://en.wikipedia.org/wiki/Software_bug>
+- Something which is causing **incorrect or unexpected results**, or an **unintended behaviour**. <https://en.wikipedia.org/wiki/Software_bug>
 - There was some debate over whether performance issues could be bugs - in general probably not. Your website might be running slowly, but it still works. But in some cases poor performance may be caused by a bug.
 
 ### Errors
