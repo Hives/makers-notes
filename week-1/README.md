@@ -27,6 +27,9 @@ By the end of the week all developers can:
 
 Alice led a debugging workshop. My notes are [here](debugging-workshop.md). I give a detailed breakdown of using a methodical debugging practice to isolate and fix a bug.
 
+To do:
+- There were three more bugs in the exercise... fix them using the method outlined
+
 ### Basic OOP
 
 ## Coach wisdom
