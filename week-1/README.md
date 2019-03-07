@@ -2,10 +2,6 @@
 
 Contents:
 - [Week 1 goals](#week-1-goals)
-  - [TDD](#test-drive-a-simple-program)
-  - [Pairing](#pair-using-the-driver-navigator-style)
-  - [Debugging](#follow-an-effective-debugging-practice)
-  - [Basic OOP](#basic-oop)
 - [Coach wisdom](#coach-wisdom)
 - [Mentor wisdom](#mentor-wisdom)
 - [Pairing feedback](#pairing-feedback)
@@ -14,10 +10,10 @@ Contents:
 
 By the end of the week all developers can:
 
-- Test-drive a simple program using objects and methods
-- Pair using the driver-navigator style
-- Follow an effective debugging process
-- Describe some basic OO principles like encapsulation, SRP
+- [Test-drive a simple program using objects and methods](#test-drive-a-simple-program)
+- [Pair using the driver-navigator style](#pair-using-the-driver-navigator-style)
+- [Follow an effective debugging practice](#follow-an-effective-debugging-practice)
+- [Describe some basic OO principles like encapsulation, SRP](#basic-oop)
   - Alice says we'll be doing a lot of this in Week 2, so less important for Week 1
 
 ### Test drive a simple program
@@ -73,9 +69,9 @@ This all seems useful, but I wanted to flag up this bit in particular.
 
 ## Mentor wisdom
 
-Luca said that his cohort is currently working on their **portfolio**, which is a document which provides evidence of how you've attained the various skills and aptitudes corresponding to the Makers goals. These are the goals which are listed on Diode: <https://diode.makersacademy.com/students/Hives/goals>
+Luca said that his cohort is currently working on their portfolio, which is a document which provides evidence of how you've attained the various skills corresponding to the Makers goals. These are the goals which are listed on Diode: <https://diode.makersacademy.com/students/Hives/goals>
 
-He advised that it's a good idea to be keeping track of this stuff as you go along, by making notes of what goals you're working on week by week and what evidence you've got to say you've achieved them, as it will be much more difficult to pull up that evidence from work we're doing now in eight weeks time!
+He advised that it's a good idea to be keeping track of this stuff as you go along, by making notes of what goals you're working on week by week and what evidence you've got to say you've achieved them, as it will be much more difficult to extract that evidence from the work we're doing now in eight weeks time!
 
 Here's Luca's portfolio, jam-packed with well-evidenced goodness: <https://github.com/punchcafe/makers_portfolio>
 
