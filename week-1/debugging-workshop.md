@@ -29,17 +29,19 @@ Here are some examples of possible errors:
 
 ## 2: Debugging process
 
-Heres a debugging exercise that we looked at: <https://github.com/makersacademy/skills-workshops/tree/master/week-1/debugging_1>
+Here's a debugging exercise that we looked at: <https://github.com/makersacademy/skills-workshops/tree/master/week-1/debugging_1>
+
+Work through the exercise applying the method described to improve your debugging skills!
 
 ### Method for debugging
 
-Taken from the exercise above:
+Taken from the exercise linked above:
 
 1. Tighten the loop (find the exact line the bug is coming from)
 2. Get visibility (use p to inspect everything to help you home in on the exact line)
 3. Once you know the one thing that is wrong, out of place, misspelled, or not giving you what you expect, try to fix it.
 
-If you have multiple failing tests Alice recommends to work through them methodically from first to last, because it's likely to be something at the start of your code... ultimately it doesn't matter, but "if you're going to start somewhere, the start is not a bad place to start" :)
+If you have multiple failing tests Alice recommends to work through them methodically from first to last, because earlier tests are likely to refer to something at the start of your code, which may be having a knock-on effect on the later tests... ultimately it doesn't matter, but "if you're going to start somewhere, the start is not a bad place to start" :)
 
 ## 3: Apply the process
 
@@ -47,7 +49,7 @@ Let's go through these 3 steps for the first test failure in the example exercis
 
 #### 1: Tighten the loop
 
-Read RSpec output carefully to identify the file and the line which is causing the test to fail. Here's the RSpec output for the first test failure:
+Read `rspec` output carefully to identify the file and the line which is causing the test to fail. Here's the `rspec` output for the first test failure:
 
 ```ruby
   1) Appointment#title has a title
@@ -89,7 +91,7 @@ The `p "----"` lines are just to mark off our debugging output from the rest of 
 Running `rspec` again shows us this at the top of the output:
 
 ```ruby
-➜➜ rspec
+➜ rspec
 ."----"
 nil
 #<Appointment:0x00007fda38aa39c0 @time=2019-03-07 12:03:12 +0000, @title=nil, @location="50 Commercial Street London", @geocoder=Geocoder>
@@ -100,7 +102,7 @@ FF.FF
 
 We can see that the output of `p appointment.title` is `nil`. The next line tells us the same thing - that the `Appointment` object contains an instance variable `@title=nil`.
 
-#### 1 + 2: Repeatedly iteratate "tightening the loop" and "get visibility" to narrow down where the bug can be
+#### 1 + 2: Continue to iteratate "tightening the loop" and "get visibility" to narrow down where the bug can be
 
 Let's look at the `appointment_spec.rb` again to see what happens up to the point where the test fails. These lines at the start of the spec...
 
@@ -167,7 +169,7 @@ Let's modify `initialize` again:
   end
 ```
 
-And run `rspec` again:
+We've added `p @title` immediately after `@title` is initialised so we can see what it's initialised to. Run `rspec` again:
 
 ```ruby
 ➜ rspec
@@ -199,7 +201,7 @@ So `@title` is getting initialised to `nil`. That's not right. It's supposed to 
   end
 ```
 
-Run `rspec` again:
+We've put `p title` immediately after it's first referenced in the method definition. Run `rspec` again:
 
 ```ruby
 ➜ rspec

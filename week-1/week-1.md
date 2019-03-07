@@ -1,5 +1,14 @@
 # Week 1 notes
 
+Contents:
+- [Week 1 goals](#week-1-goals)
+  - [TDD](#test-drive-a-simple-program)
+  - [Pairing](#pair-using-the-driver-navigator-style)
+  - [Debugging](#follow-an-effective-debugging-practice)
+  - [Basic OOP](#basic-oop)
+- [Coach wisdom](#coach-wisdom)
+- [Mentor wisdom](#mentor-wisdom)
+
 ## Week 1 goals
 
 By the end of the week all developers can:
@@ -8,8 +17,17 @@ By the end of the week all developers can:
 - Pair using the driver-navigator style
 - Follow an effective debugging process
 - Describe some basic OO principles like encapsulation, SRP
-  - Alice says we'll be doing a lot of this in Week 2, so less important for Week 1
+  - Alice says we'll be doing a lot of this in Week 2, so less important for Week 1ls
 
+### Test drive a simple program
+
+### Pair using the driver navigator style
+
+### Follow an effective debugging practice
+
+Alice led a debugging workshop. My notes are [here](debugging-workshop.md)
+
+### Basic OOP
 
 ## Coach wisdom
 
