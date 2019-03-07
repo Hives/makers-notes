@@ -21,11 +21,15 @@ By the end of the week all developers can:
 
 ### Test drive a simple program
 
+We test-drove the Boris Bikes project all week. I paired with ["Kim", "Matt Thompson", "James Palmer", pair4]
+
 ### Pair using the driver navigator style
+
+[Feedback from Matt here... we did ping pong method though...]
 
 ### Follow an effective debugging practice
 
-Alice led a debugging workshop. My notes are [here](debugging-workshop.md). I give a detailed breakdown of using a methodical debugging practice to isolate and fix a bug.
+Alice led a debugging workshop. I took notes, including a detailed explanation of using a methodical debugging practice to isolate and fix a bug: [Debugging workshop notes](debugging-workshop.md)
 
 To do:
 - There were three more bugs in the exercise... fix them using the method outlined
