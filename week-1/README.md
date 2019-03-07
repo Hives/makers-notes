@@ -29,7 +29,7 @@ We test-drove the Boris Bikes project all week. I paired with ["Kim", "Matt Thom
 
 ### Follow an effective debugging practice
 
-Alice led a debugging workshop. I took notes, including a detailed explanation of using a methodical debugging practice to isolate and fix a bug: [Debugging workshop notes](debugging-workshop.md)
+Alice led a debugging workshop. I took notes, including a detailed explanation of using a methodical debugging practice to isolate and fix a bug: [debugging workshop notes](debugging-workshop.md)
 
 To do:
 - There were three more bugs in the exercise... fix them using the method outlined
