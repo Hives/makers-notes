@@ -1,7 +1,8 @@
 # Week 1 notes
 
-Contents:
-- [Week 1 goals](#week-1-goals)
+## Contents:
+
+- [Week 1 goals](#goals)
 - [Coach wisdom](#coach-wisdom)
   - Skills break down into:
     1. Concrete things
@@ -13,12 +14,12 @@ Contents:
   - Keep track of feedback from pairing partners as you go along, as it can be useful evidence to include in your portfolio
 - [Pairing feedback](#pairing-feedback)
 
-## Week 1 goals
+## Week 1 goals <a name="goals"/>
 
 By the end of the week all developers can:
 
 - [Test-drive a simple program using objects and methods](#test-drive-a-simple-program)
-  - Concrete things: RSpec
+  - Concrete things: Using RSpec
   - Concepts: objects and methods
   - Process: TDD
 - [Pair using the driver-navigator style](#pair-using-the-driver-navigator-style)
@@ -60,7 +61,7 @@ Alice led a debugging workshop. I took notes, including a detailed explanation o
 
 ### Basic OOP
 
-## Coach wisdom
+## Coach wisdom <a name="coach-goals" />
 
 Alice said this:
 
@@ -89,7 +90,7 @@ This all seems useful, but I wanted to flag up this bit in particular.
 
 > **At Makers, we believe that the last two, _processes_ and _behaviours_ are the ones most worth acquiring during your time with us.**
 
-## Mentor wisdom
+## Mentor wisdom <a name="mentor-wisdom" />
 
 Luca said that his cohort is currently working on their portfolio, which is a document which provides evidence of how you've attained the various skills corresponding to the Makers goals. These are the goals which are listed on Diode: <https://diode.makersacademy.com/students/Hives/goals>
 
@@ -97,7 +98,9 @@ He advised that it's a good idea to be keeping track of this stuff as you go alo
 
 Here's Luca's portfolio, jam-packed with well-evidenced goodness: <https://github.com/punchcafe/makers_portfolio>
 
-## Pairing feedback
+qqwe
+## Pairing feedback <a name="pairing-feedback" />
+dasdasdsad
 
 ### Matt Thompson (Wed)
 
