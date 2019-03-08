@@ -38,6 +38,9 @@ By the end of the week all developers can:
 
 We test-drove the Boris Bikes project all week. I paired with ["Kim", "Matt Thompson", "James Palmer", "Harry]
 
+**TODO**
+- Make a video of me TDD-ing a Codewars Kata like wot Luca did
+
 #### TDD Practical
 
 I went through the TDD practical exercise <https://diode.makersacademy.com/students/Hives/projects/4492>
@@ -53,11 +56,13 @@ Here are my notes: <https://github.com/Hives/skills-workshops/blob/master/practi
 
 #### Debugging workshop and exercise
 
-Alice led a debugging workshop. I took notes, including a detailed explanation of using a methodical debugging practice to isolate and fix a bug: [debugging workshop notes](debugging-workshop.md)
+Alice led a debugging workshop. There was an exercise to go with it where you have to fix three bugs: <https://github.com/Hives/skills-workshops/tree/master/week-1/debugging_1>
 
-**TODO**:
-- There were three more bugs in the exercise... fix them using the method outlined. Here's the exercise: <https://github.com/Hives/skills-workshops/tree/master/week-1/debugging_1>
-- It's on Diode too: <https://diode.makersacademy.com/students/Hives/projects/4531>
+(The exercise is on Diode too: <https://diode.makersacademy.com/students/Hives/projects/4531>)
+
+I took notes, including a detailed explanation of using a methodical debugging practice to isolate and fix the first two bugs: [debugging workshop notes](debugging-workshop.md). I asked Alice for feedback on my explanation of fixing the first bug, and she said this:
+
+> I read this yesterday actually, and loved it. I think you described the process well, and can definitely see that you get the debugging process.
 
 ### Basic OOP
 
