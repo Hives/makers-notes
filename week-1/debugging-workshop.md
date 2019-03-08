@@ -257,7 +257,7 @@ Run `rspec`. Here's the output:
 
 Alice says that it's good to start at the top of the backtrace and follow the chain forwards:
 
-> In ruby, the top line of the trace will be the exact place the error was thrown. So it makes sense to start there, because the error text will be referring to that line (here, the error was ``undefined method `search` for NilClass:nil``)
+> In ruby, the top line of the trace will be the exact place the error was thrown. So it makes sense to start there, because the error text will be referring to that line (here, the error was ``undefined method `search` for NilClass:nil``)  
 > That line is ambiguous, there are several places in the code where a search method is defined, but by following that exact line, I was able to tell that actually, it wanted a search method on something called 'lookup'
 
 The first line says the program is halting at line 14 in `query.rb`, which is a file in an imported gem. Let's not be scared though, and plunge in...
