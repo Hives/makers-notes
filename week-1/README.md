@@ -44,13 +44,40 @@ We test-drove the Boris Bikes project all week. I paired with ["Kim", "Matt Thom
 #### TDD Practical
 
 I went through the TDD practical exercise <https://diode.makersacademy.com/students/Hives/projects/4492>
-Here are my notes: <https://github.com/Hives/skills-workshops/blob/master/practicals/test_driving.md>
+
+Here's my repo of the starter exercise: <https://github.com/Hives/tdd-practice-1-starter-exercise>
+
+Here's my repo of the main exercise: <https://github.com/Hives/birthdays>
 
 **TODO:**
-- Complete this, and seek feedback from a coach.
-- What goals did I achieve from this?
+- Do the main exercise
+
+### TDD workshop with Katerina
+
+- Refactoring tests. E.g. if you do a real simple test like `expect(object).to respond to (:method)` or whatever, and then you do `expect(object.method).to eq XX` then you can delete the first one because the 2nd one covers it!!
+
+Working on TDDing a program to convert arabic to roman numerals
+
+> As a user  
+> So that I can find out roman numerals  
+> I want to enter an arabic numeral and get the equivalent roman numeral back
+
+```
+> rn = RomanNumeral.new
+=> #<RomanNumeral:0x00...>
+> rn.convert(0)
+=> ""
+> rn.convert(1)
+=> "I"
+> rn.convert(2)
+=> "II"
+# etc...
+```
+When you get to 3 maybe you notice a pattern, and you can start returning `"I" * number`? Then this will break when you get to 4, so what do you do then? Test drive a strict TDD approach on this up to 100 is an interesting exercise
 
 ### Pair using the driver navigator style
+
+?!?
 
 ### Follow an effective debugging practice
 
