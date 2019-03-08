@@ -45,6 +45,8 @@ If you have multiple failing tests Alice recommends to work through them methodi
 
 ## 3: Apply the process
 
+### Fixing the first bug in the exercise
+
 Let's go through these 3 steps for the first test failure in the example exercise. I'm going to write the steps down in extremely pedantic detail to illustrate the way step 1 (tighten the loop) and step 2 (get visibility) are iterated in progressively reduce the amount of code you're searching through to find the problem.
 
 #### 1: Tighten the loop
@@ -233,6 +235,109 @@ So looking at this very carefully we can see there's a typo: instead of `title`,
 #### 3: Fix the error
 
 So let's correct that `tit1e` to `title` and re-run the tests. `rspec` now reports that the test is passing. W00t!
+
+### Fixing the second bug in the exercise
+
+We go through the identical process of tightening the loop and getting visibility until we identify the problem.
+
+Run `rspec`. Here's the output:
+
+```
+  1) Appointment#pretty_location pretty-prints the location
+     Failure/Error: geocoder.search(location)[0]
+     
+     NoMethodError:
+       undefined method `search' for nil:NilClass
+     # /Users/student/.rvm/gems/ruby-2.6.0/gems/really-broken-geocoder-2.0.0/lib/geocoder/query.rb:14:in `execute'
+     # /Users/student/.rvm/gems/ruby-2.6.0/gems/really-broken-geocoder-2.0.0/lib/geocoder.rb:22:in `search'
+     # ./lib/appointment.rb:22:in `geo_location'
+     # ./lib/appointment.rb:15:in `pretty_location'
+     # ./spec/appointment_spec.rb:17:in `block (3 levels) in <top (required)>'
+```
+
+Alice says that it's good to start at the top of the backtrace and follow the chain forwards. (Why??) The first line says the program is halting at line 14 in `query.rb`, which is a file in an imported gem. Let's not be scared though, and plunge in...
+
+```ruby
+    def execute
+      lookup.search(text, options)
+    end
+```
+
+Line 11 is the one in the middle where the method returns `lookup.search(text, options)`. Let's modify the method like this to see what that line returns:
+
+```ruby
+    def execute
+      puts "inside execute"
+      p lookup.search(text, options)
+      puts "---"
+      lookup.search(text, options)
+    end
+```
+
+`rspec` output:
+
+```
+➜ rspec
+..inside execute
+inside lookup
+F.FF
+// etc...
+```
+
+That's weird... the `puts "---"` isn't giving any output... is there a problem with `lookup.search...` which is causing the method to stop executing there? Let's investigate `lookup`. It's a method which is defined elsewhere in the same class:
+
+```ruby
+    def lookup
+      if !options[:streot_address] and (options[:ip_address] or ip_address?)
+        name = options[:ip_lookup] || Configuration.ip_lookup || Geocoder::Lookup.ip_services.first
+      else
+        name = options[:lookup] || Configuration.lookup || Geocoder::Lookup.street_services.first
+      end
+      Lookup.get(name)
+      return
+    end
+```
+
+The first thing that jumps to mind is `streot_address` which looks like a spelling of `street_address`, but Alice says not to jump to conclusions - maybe `streot_address` is actually correct! So let's be methodical and keep applying our method.
+
+The second thing that stands out about this is that the `return` keyword with no argument at the end means this method returns `nil`. That doesn't seem right. The `execute` method does `lookup.search`, so it's clearly expecting `lookup` to return an object which responds to the `.search` method, which `nil` will not. In fact the actual error given by `rspec` is ``NoMethodError: undefined method `search' for nil:NilClass``, so maybe we're on the right track.
+
+The penultimate line in the method says `Lookup.get(name)`. This looks like a more likely contender for an object which might respond to `.search`, so maybe that's what the method is supposed to return? Let's get some visibility by modifying `lookup` to dump out `Lookup.get(name)` like this:
+
+```ruby
+    def lookup
+      if !options[:streot_address] and (options[:ip_address] or ip_address?)
+        name = options[:ip_lookup] || Configuration.ip_lookup || Geocoder::Lookup.ip_services.first
+      else
+        name = options[:lookup] || Configuration.lookup || Geocoder::Lookup.street_services.first
+      end
+      puts "inside lookup"
+      p Lookup.get(name)
+      puts "---"
+      Lookup.get(name)
+      return
+    end
+```
+
+Run `rspec`:
+
+```
+➜ rspec
+..inside execute
+inside lookup
+#<Geocoder::Lookup::Nominatim:0x00007fd5b5906860 @cache=nil>
+---
+F.FF
+// etc...
+```
+
+So `Lookup.get(name)` returns... I'm not sure what that is, but a geocoder lookup object or something? That looks like a more likely thing for the method to return than `nil`, so let's remove the final `return` line from the `lookup` method, so that it will return `Lookup.get(name)`.
+
+Do that, run `rspec`, and the test passes. W00tles^2!
+
+### Fixing the third bug in the exercise
+
+I leave this exercise for another day...
 
 ## $BONUS: Previous cohort's debugging chat
 

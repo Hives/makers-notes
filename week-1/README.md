@@ -98,9 +98,7 @@ He advised that it's a good idea to be keeping track of this stuff as you go alo
 
 Here's Luca's portfolio, jam-packed with well-evidenced goodness: <https://github.com/punchcafe/makers_portfolio>
 
-qqwe
-## Pairing feedback <a name="pairing-feedback" />
-dasdasdsad
+## Pairing feedback <a name="pairing-feedback"/>
 
 ### Matt Thompson (Wed)
 
