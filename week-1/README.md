@@ -1,6 +1,6 @@
 # Week 1 notes
 
-## Contents:
+Contents:
 
 - [Week 1 goals](#goals)
 - [Cross cutting strands](#cross-cutting)
@@ -32,10 +32,6 @@ By the end of the week all developers can:
 - [Describe some basic OO principles like encapsulation, SRP](#basic-oop)
   - Concepts
   - *Alice says we'll be doing a lot of this in Week 2, so less important for Week 1*
-
-## Cross cutting strands <a name="cross-cutting" />
-
-> There are some cross-cutting strands that we fit in alongside other work. These include **careers** and **code quality**. They are not the topic of any one week, and you will miss them out unless you think of them regularly!
 
 ### Test drive a simple program
 
@@ -97,6 +93,10 @@ I took notes, including a detailed explanation of using a methodical debugging p
 > I read this yesterday actually, and loved it. I think you described the process well, and can definitely see that you get the debugging process.
 
 ### Basic OOP
+
+## Cross cutting strands <a name="cross-cutting" />
+
+> There are some cross-cutting strands that we fit in alongside other work. These include **careers** and **code quality**. They are not the topic of any one week, and you will miss them out unless you think of them regularly!
 
 ## Coach wisdom <a name="coach-goals" />
 
