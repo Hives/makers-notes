@@ -3,6 +3,7 @@
 ## Contents:
 
 - [Week 1 goals](#goals)
+- [Cross cutting strands](#cross-cutting)
 - [Coach wisdom](#coach-wisdom)
   - Skills break down into:
     1. Concrete things
@@ -31,6 +32,10 @@ By the end of the week all developers can:
 - [Describe some basic OO principles like encapsulation, SRP](#basic-oop)
   - Concepts
   - *Alice says we'll be doing a lot of this in Week 2, so less important for Week 1*
+
+## Cross cutting strands <a name="cross-cutting" />
+
+> There are some cross-cutting strands that we fit in alongside other work. These include **careers** and **code quality**. They are not the topic of any one week, and you will miss them out unless you think of them regularly!
 
 ### Test drive a simple program
 
