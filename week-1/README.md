@@ -38,7 +38,7 @@ By the end of the week all developers can:
 
 We test-drove the Boris Bikes project all week. I paired with ["Kim", "Matt Thompson", "James Palmer", "Harry]
 
-**TODO**
+TODO:
 - Make a video of me TDD-ing a Codewars Kata like wot Luca did
 
 #### TDD Practical
@@ -49,12 +49,12 @@ Here's my repo of the starter exercise: <https://github.com/Hives/tdd-practice-1
 
 Here's my repo of the main exercise: <https://github.com/Hives/birthdays>
 
-**TODO:**
+TODO:
 - Do the main exercise
 
-### TDD workshop with Katerina
+#### TDD workshop with Katerina
 
-- Refactoring tests. E.g. if you do a real simple test like `expect(object).to respond to (:method)` or whatever, and then you do `expect(object.method).to eq XX` then you can delete the first one because the 2nd one covers it!!
+- Refactor your tests. E.g. if you do a real simple test like `expect(object).to respond to (:method)` or whatever, and then you do `expect(object.method).to eq XX` then you can delete the first one because the 2nd one covers it!!
 
 Working on TDDing a program to convert arabic to roman numerals
 
