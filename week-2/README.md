@@ -3,9 +3,11 @@
 Contents:
 
 - [Week 2 goals](#goals)
+- [Weekly task - oyster cards](#oyster-cards)
+- [Mocking](#mocking)
 - [Pairing feedback](#pairing-feedback)
 
-## Week 2 goals <a name='goals'></a>
+## <a name='goals'>Week 2 goals</a>
 
 By the end of the week all developers can:
 
@@ -18,14 +20,7 @@ By the end of the week all developers can:
 
 Some developers may notice they are completing the work easier than their peers and ease off the effort here. They should be identified and pushed to have their code reviewed to a professional standard to make best use of the time available.
 
-## Code review
-
-- I had 4 guard conditions on `airport.land` - do i really need to test in what priority they fire? So many tests!
-- I was `puts`ing out confirmation messages as well as returning `self` from object methods. Means lots of garbage in test output. Is this a bad idea??
-- "Dependency injection" wtf?
-- Only double to remove dependency - don't isolate tests for methods within a class. You want as much behaviour of the class to be normal as possible.
-
-## Weekly task - oyster cards
+## <a name=oyster-cards>Weekly task - oyster cards</a>
 
 Monday:
 - Gemfile.lock - wassat?
@@ -34,16 +29,36 @@ Monday:
 - what's the structure of a unit test?
 - what's an example of a bad test description?
 - what is a class constructor? is it different from `.initialize`?
-- how can you test something that happens after an exception?
+- Q: how can you test something that happens after an exception?
 - rspec predicate matchers: <https://relishapp.com/rspec/rspec-expectations/v/3-3/docs/built-in-matchers/predicate-matchers>
 
-## Pairing feedback <a name='pairing-feedback'/></a>
+## <a name=mocking>Mocking</a>
+
+Lotta info here: <https://github.com/rspec/rspec-mocks>
+
+### Doubles
+
+Instead of testing ObjectA against an instance of ObjectB, I use a stand in (a stuntman if you like) for ObjectB instead. ObjectA doesn't know the difference, it simply treats the double as if were an instance of ObjectB, but it's not - it's a dummy that I've set up with static (and therefore not variable) values.
+
+### Stubs
+
+I want to test some behaviour of ObjectA, but during the execution of that behaviour, ObjectA calls a method on ObjectB. I don't need to test that the method on ObjectB gets called, but I do want to make sure that when it does, the method on ObjectB always returns a specific value.
+
+### Mocks
+
+I want to test some behaviour of ObjectA and, critically, during the execution of that behaviour, ObjectA must call a method on ObjectB with specific arguments. In my test, I don't particularly care what happens afterwards, but I want to test that in the code that is about to be executed the specific method is called with the correct arguments.
+
+### Spies
+
+I want to test some behaviour of ObjectA and, critially, during the execution of that behaviour, ObjectA must call a method on ObjectB with specific arguments (sound familiar?). In my test, I don't particularly care what else happened during the test, just that in the code that was just executed the specific method was called with the correct arguments.
+
+## <a name='pairing-feedback'/>Pairing feedback</a>
 
 ### Matvey Shuppe (Mon)
 
 Didn't get none
 
-### Jeremy Smith
+### Jeremy Smith (Tues)
 
 Jeremy liked that I was using Rubocop to help write good code,  running it frequently as we were going along. He also appreciated me helping him get a Rubocop linter up and running in VS Code.
 

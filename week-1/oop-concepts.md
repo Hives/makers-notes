@@ -47,9 +47,7 @@ This is probably the hardest one to understand. It states that you should be abl
 
 ## <a name="segregation">Interface Segregation Principle</a>
 
-This is less relevant in dynamic languages. Since it doesn't require types to be specified, this principle can't be broken in Ruby.
-
-But the principle is - no client should be forced to depend on methods it does not use.
+No client should be forced to depend on methods it does not use. So... if you're only using a subset of the interface, you should still be able to use it if some of the rest of it is broken?
 
 ## <a name="dependency-inversion">Dependency Inversion Principle</a>
 
