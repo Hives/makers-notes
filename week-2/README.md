@@ -42,3 +42,9 @@ Monday:
 ### Matvey Shuppe (Mon)
 
 Didn't get none
+
+### Jeremy Smith
+
+Jeremy liked that I was using Rubocop to help write good code,  running it frequently as we were going along. He also appreciated me helping him get a Rubocop linter up and running in VS Code.
+
+He liked how I was refactoring as we were going along, in particular grouping tests together into contexts to improve readbility of code and RSpec output.
