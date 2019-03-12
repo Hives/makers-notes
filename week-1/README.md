@@ -1,9 +1,8 @@
 # Week 1 notes
 
-Contents:
+## Contents:
 
 - [Week 1 goals](#goals)
-- [Cross cutting strands](#cross-cutting)
 - [Coach wisdom](#coach-wisdom)
   - Skills break down into:
     1. Concrete things
@@ -15,7 +14,7 @@ Contents:
   - Keep track of feedback from pairing partners as you go along, as it can be useful evidence to include in your portfolio
 - [Pairing feedback](#pairing-feedback)
 
-## Week 1 goals <a name="goals"/>
+## Week 1 goals <a name="goals"></a>
 
 By the end of the week all developers can:
 
@@ -39,46 +38,19 @@ By the end of the week all developers can:
 
 We test-drove the Boris Bikes project all week. I paired with ["Kim", "Matt Thompson", "James Palmer", "Harry]
 
-TODO:
+**TODO**
 - Make a video of me TDD-ing a Codewars Kata like wot Luca did
 
 #### TDD Practical
 
 I went through the TDD practical exercise <https://diode.makersacademy.com/students/Hives/projects/4492>
+Here are my notes: <https://github.com/Hives/skills-workshops/blob/master/practicals/test_driving.md>
 
-Here's my repo of the starter exercise: <https://github.com/Hives/tdd-practice-1-starter-exercise>
-
-Here's my repo of the main exercise: <https://github.com/Hives/birthdays>
-
-TODO:
-- Do the main exercise
-
-#### TDD workshop with Katerina
-
-- Refactor your tests. E.g. if you do a real simple test like `expect(object).to respond to (:method)` or whatever, and then you do `expect(object.method).to eq XX` then you can delete the first one because the 2nd one covers it!!
-
-Working on TDDing a program to convert arabic to roman numerals
-
-> As a user  
-> So that I can find out roman numerals  
-> I want to enter an arabic numeral and get the equivalent roman numeral back
-
-```
-> rn = RomanNumeral.new
-=> #<RomanNumeral:0x00...>
-> rn.convert(0)
-=> ""
-> rn.convert(1)
-=> "I"
-> rn.convert(2)
-=> "II"
-# etc...
-```
-When you get to 3 maybe you notice a pattern, and you can start returning `"I" * number`? Then this will break when you get to 4, so what do you do then? Test drive a strict TDD approach on this up to 100 is an interesting exercise
+**TODO:**
+- Complete this, and seek feedback from a coach.
+- What goals did I achieve from this?
 
 ### Pair using the driver navigator style
-
-?!?
 
 ### Follow an effective debugging practice
 
@@ -94,11 +66,9 @@ I took notes, including a detailed explanation of using a methodical debugging p
 
 ### Basic OOP
 
-## Cross cutting strands <a name="cross-cutting" />
 
-> There are some cross-cutting strands that we fit in alongside other work. These include **careers** and **code quality**. They are not the topic of any one week, and you will miss them out unless you think of them regularly!
 
-## Coach wisdom <a name="coach-goals" />
+## Coach wisdom <a name="coach-goals"></a>
 
 Alice said this:
 
@@ -127,7 +97,7 @@ This all seems useful, but I wanted to flag up this bit in particular.
 
 > **At Makers, we believe that the last two, _processes_ and _behaviours_ are the ones most worth acquiring during your time with us.**
 
-## Mentor wisdom <a name="mentor-wisdom" />
+## Mentor wisdom <a name="mentor-wisdom"></a>
 
 Luca said that his cohort is currently working on their portfolio, which is a document which provides evidence of how you've attained the various skills corresponding to the Makers goals. These are the goals which are listed on Diode: <https://diode.makersacademy.com/students/Hives/goals>
 
@@ -135,7 +105,7 @@ He advised that it's a good idea to be keeping track of this stuff as you go alo
 
 Here's Luca's portfolio, jam-packed with well-evidenced goodness: <https://github.com/punchcafe/makers_portfolio>
 
-## Pairing feedback <a name="pairing-feedback"/>
+## Pairing feedback <a name="pairing-feedback"></a>
 
 ### Matt Thompson (Wed)
 
@@ -156,3 +126,9 @@ James also said he appreciated that I sometimes went back and wrote further test
 
 James pulled us out of a rabbit hole at one point by suggesting we use the exercise's 'walk through' help. We had spent around 20 minutes pursuing a particular path but didn't feel we were making substantial progress. After checking the walk through we realised there was a better approach and got back on track.
 - I learnt: unblocking yourself by using available resources
+
+### Harry Galliano (Friday)
+
+> When pairing with you yesterday for the brief two hours that we had to work with I found it to be a very different type of pairing session than the other days of the week, this is because you were so much further ahead of me and i was playing catchup. This was actually very good for me in my eyes (potentially not great for you, as you were going back over things that you had done just a day before) because i really feel i learnt more about TDD and SRP than I had done on any of the other days.
+>
+> You were a really patient partner which was fantastic as you already seem to know lots about programming and you were very calm the whole way through the afternoon which really helped me to keep going and keep focused. I think the thing you did best was that you would always get me to try my ideas, even when they didn't work, this was great for me being able to visualise exactly why some of my ideas didn't work and you were then kind enough to explain the syntax to me, which was fantastic.
