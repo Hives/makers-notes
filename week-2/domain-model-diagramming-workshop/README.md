@@ -55,14 +55,14 @@ At this point someone asked 'which of these would you start with?'
 
 [The exercise description](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming#how-do-you-implement-a-program-using-a-domain-modelling-driven-approach)
 
-Here's the diagrams we came up with:
+Here's the diagrams we (me and Alex) came up with:
 
-<img src="./img/our-domain-model-diagrams-1.jpg" width: 400px />
-<img src="./img/our-domain-model-diagrams-2.jpg" width: 400px />
+<img src="./img/our-domain-model-diagrams-1.jpg" width=400 />
+<img src="./img/our-domain-model-diagrams-2.jpg" width=400 />
 
-Amy and Evelyn took a different approach - they separated tags out into a `Tag` class of their own. This is useful becuase it allows the system to prompt you to use particular tags which can help prevent human error: ("you typed 'shooping', did you mean 'shopping'?). They also made a diagram to show the user interaction before they started on the sequence and class diagrams:
+Amy and Evelyn took a different approach - they separated tags out into a `Tag` class of their own. This is useful becuase it allows the system the possibility of managing tags in a helpful way: ("you typed 'shooping', did you mean 'shopping'?). They also made a diagram to show the user interaction before they started on the sequence and class diagrams:
 
-<img src="./img/amy-and-evelyns-diagrams.jpg"/>
+<img src="./img/amy-and-evelyns-diagrams.jpg" width=400 />
 
 Sophie translated the user stories into user interactions:
 
@@ -70,6 +70,8 @@ Sophie translated the user stories into user interactions:
 - add a note to a notebook
 - add a tag to a note
 - search for notes with a particular tag
+
+and then into sequence and class diagrams.
 
 Through diagramming the interaction Sophie came to realise that 'add a tag to note' does not belong on the sequence diagram. The way you'd achieve that is by writing a method on `Notebook` which returns the stored notes. The user can then get the note they want to change from that, and use a method like `set_tag` on the `Note` object. So it's not actually an interaction between `Notebook` and `Note`. So drawing the diagrams helped to clarify the interaction between the classes.
 
