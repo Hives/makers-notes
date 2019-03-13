@@ -53,7 +53,7 @@ At this point someone asked 'which of these would you start with?'
 
 ## We did the exercise
 
-[The exercise description](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming#how-do-you-implement-a-program-using-a-domain-modelling-driven-approach)
+[The exercise description in the workshop repo](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming#how-do-you-implement-a-program-using-a-domain-modelling-driven-approach)
 
 Here's the diagrams we (me and Alex) came up with:
 
