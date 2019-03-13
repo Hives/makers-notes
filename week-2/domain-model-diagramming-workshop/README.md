@@ -32,7 +32,7 @@ If your diagram is getting too complicated it probably means you need to break y
 
 ### Sequence diagram
 
-<img src="./img/sequence.png"/>
+<img src="./img/sequence.png" width=600/>
 
 Thinks about messages which are **sent** by objects. Note that reading from left to right, 'flip' appears before 'Coin', but flip is a method being called *on* 'Coin', *by* 'HeadCount'.
 
