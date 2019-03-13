@@ -37,6 +37,7 @@ Wednesday:
   necessary/good practice?
 - Alex says Sophie says it's not good to test attributes in tests. How else
   would you do it?
+- [Notes for section 13](https://github.com/makersacademy/course/blob/master/oystercard/13_create_station_class.md) have got a lot of stuff about modules. Should we have used them?
 
 ## <a name='workshops'>Workshops</a>
 
