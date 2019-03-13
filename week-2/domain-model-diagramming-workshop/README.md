@@ -28,7 +28,7 @@ Try to keep them as simple as possible while still capturing the important infor
 
 If your diagram is getting too complicated it probably means you need to break your domain up.
 
-## Here we go
+## What are we talking about here?
 
 ### Sequence diagram
 
@@ -51,3 +51,36 @@ At this point someone asked 'which of these would you start with?'
 - Apart from that, the different diagrams complement each other so you might use both.
 - But don't mix up the conventions of the different diagrams - the differnet boxes are specific to different diagram types and it will be confusing if you use the wrong one.
 
+## We did the exercise
+
+[The exercise description](domain-model-diagramming-exercise.md#the-exercise)
+
+Here's the diagrams we came up with:
+
+<img src="./img/our-domain-model-diagrams-1.jpg"/>
+<img src="./img/our-domain-model-diagrams-2.jpg"/>
+
+Amy and Evelyn took a different approach - they separated tags out into a `Tag` class of their own. This is useful becuase it allows the system to prompt you to use particular tags which can help prevent human error: ("you typed 'shooping', did you mean 'shopping'?). They also made a diagram to show the user interaction before they started on the sequence and class diagrams:
+
+<img src="./img/amy-and-evelyns-diagrams.jpg"/>
+
+Sophie translated the user stories into user interactions:
+
+- create a note
+- add a note to a notebook
+- add a tag to a note
+- search for notes with a particular tag
+
+Through diagramming the interaction Sophie came to realise that 'add a tag to note' does not belong on the sequence diagram. The way you'd achieve that is by writing a method on `Notebook` which returns the stored notes. The user can then get the note they want to change from that, and use a method like `set_tag` on the `Note` object. So it's not actually an interaction between `Notebook` and `Note`. So drawing the diagrams helped to clarify the interaction between the classes.
+
+## Sophie's post-workshop notes:
+
+*Key points from the session:*
+- Class diagrams capture the messages a class can receive
+- Sequence diagrams the messages sent from one class to another, and the value returned
+- Messages are verbs, classes are nouns
+- The diagrams capture different things - neither by themselves gives a complete picture of the application
+
+*Going further*
+- Try turning your diagram into a working application, integrate TDD into this process if you have time.
+- Create a diagram of your Boris Bikes, Airport Challenge or Oystercard application
