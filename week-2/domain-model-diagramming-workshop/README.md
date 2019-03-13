@@ -64,7 +64,7 @@ Here's the diagrams we (me and Alex) came up with (click to enlarge):
 
 We started by writing an irb-style feature test for the new features, then we drew a sequence diagram to illustrate the interaction between our classes, then we drew a class diagram to show what methods exist on each class.
 
-And then we wrote [this code to implement the features](notebook.rb).
+And then we wrote [this code](notebook.rb) to implement the features.
 
 Amy and Evelyn took a different approach - they separated tags out into a `Tag` class of their own. This is useful becuase it allows the system the possibility of managing tags in a helpful way: ("you typed 'shooping', did you mean 'shopping'?). They also made a diagram to show the user interaction before they started on the sequence and class diagrams:
 
