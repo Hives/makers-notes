@@ -58,11 +58,13 @@ The exercise started with some user stories about a simple note-taking app with 
 
 The task was to make a sequence and class diagram for the user stories, and then turn that into code.
 
-Here's the diagrams we (me and Alex) came up with:
+Here's the diagrams we (me and Alex) came up with (click to enlarge):
 
 <img src="./img/our-domain-model-diagrams-1.jpg" width=400 /><img src="./img/our-domain-model-diagrams-2.jpg" width=400 />
 
-And [here's our code](notebook.rb).
+We started by writing an irb-style feature test for the new features, then we drew a sequence diagram to illustrate the interaction between our classes, then we drew a class diagram to show what methods exist on each class.
+
+And then we wrote [this code to implement the features](notebook.rb).
 
 Amy and Evelyn took a different approach - they separated tags out into a `Tag` class of their own. This is useful becuase it allows the system the possibility of managing tags in a helpful way: ("you typed 'shooping', did you mean 'shopping'?). They also made a diagram to show the user interaction before they started on the sequence and class diagrams:
 
@@ -75,7 +77,7 @@ Sophie translated the user stories into user interactions:
 - add a tag to a note
 - search for notes with a particular tag
 
-and then into sequence and class diagrams.
+and then translated these interactions one by one into a sequence diagram, updating the class diagram along the way.
 
 Through diagramming the interaction Sophie came to realise that 'add a tag to note' does not belong on the sequence diagram. The way you'd achieve that is by writing a method on `Notebook` which returns the stored notes. The user can then get the note they want to change from that, and use a method like `set_tag` on the `Note` object. So it's not actually an interaction between `Notebook` and `Note`. So drawing the diagrams helped to clarify the interaction between the classes.
 
