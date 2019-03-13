@@ -40,7 +40,7 @@ The user is not included in a sequence diagram. It only diagrams the domain's in
 
 ### Class diagram
 
-<img src="./img/class.png"/>
+<img src="./img/class.png" width=700 />
 
 Thinks about messages which are **received** by objects.
 
