@@ -6,7 +6,7 @@
 
 Lots of best practice principles for RSpec. Warning - sometimes references RSpec 2.
 
-## RSpec `subject`
+## RSpec \`subject\`
 
 <https://relishapp.com/rspec/rspec-core/v/3-8/docs/subject>
 
@@ -56,7 +56,7 @@ One-liner syntax:
 >     should be empty
 > ```
 
-## RSpec - prefer `let` to `before` block
+## RSpec - prefer \`let\` to \`before\` block
 
 <http://www.betterspecs.org/#let>
 
@@ -87,6 +87,35 @@ end
 ```
 
 Good StackOverflow explanation of this [here](https://stackoverflow.com/questions/5359558/when-to-use-rspec-let/5359979#5359979).
+
+# \`before\` hook
+
+If you do want to use a `before` hook, be aware of the difference between:
+
+```ruby
+before(:each) # run before each example
+before(:all) # run one time only, before all of the examples in a group
+```
+
+b.t.w., these are equivalent to
+
+```ruby
+before(:example) # run before each example
+before(:context) # run one time only, before all of the examples in a group
+```
+
+Use whichever you like.
+
+<https://relishapp.com/rspec/rspec-core/v/3-8/docs/hooks/before-and-after-hooks>
+
+## Pending tests
+
+<https://relishapp.com/rspec/rspec-core/v/3-8/docs/pending-and-skipped-examples/pending-examples>
+
+Ways to mark tests as pending so they don't count against your suite.
+
+I couldn't get this to work, but might be useful for disabling tests while doing something complicated that's gonna break stuff like, say, extracting a class.
+
 
 ## Mocking
 
