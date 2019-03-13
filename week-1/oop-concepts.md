@@ -47,8 +47,10 @@ This is probably the hardest one to understand. It states that you should be abl
 
 ## <a name="segregation">Interface Segregation Principle</a>
 
-No client should be forced to depend on methods it does not use. So... if you're only using a subset of the interface, you should still be able to use it if some of the rest of it is broken?
+No client should be forced to depend on methods it does not use. So... if you're only using a subset of the interface, you should still be able to use it if some of the rest of it is broken? Or something?
 
 ## <a name="dependency-inversion">Dependency Inversion Principle</a>
 
 High-level (e.g. business logic) objects should not depend on low-level (e.g. database querying and I/O) implementation details.
+
+Here's a good article on this principle, specifically w.r.t. Ruby: <http://www.getlaura.com/dependency-inversion-principle-in-ruby/>
