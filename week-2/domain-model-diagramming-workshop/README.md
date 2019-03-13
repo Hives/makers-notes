@@ -2,6 +2,7 @@
 
 [Workshop repo](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming)
 
+*Date: Wed 13 Mar*  
 *Coach: Sophie*
 
 ## Qs before we started
