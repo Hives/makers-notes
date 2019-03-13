@@ -2,6 +2,8 @@
 
 [Workshop repo](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming)
 
+*Coach: Sophie*
+
 ## Qs before we started
 
 ### UML has a lot of models - which are most important?
@@ -53,6 +55,8 @@ At this point someone asked 'which of these would you start with?'
 
 ## The exercise
 
+### What we did
+
 The exercise started with some user stories about a simple note-taking app with tagging and searching functionality. 
 [Here's the exercise description in the workshop repo](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming#how-do-you-implement-a-program-using-a-domain-modelling-driven-approach)
 
@@ -69,6 +73,8 @@ And then we wrote [this code](notebook.rb) to implement the features.
 Amy and Evelyn took a different approach - they separated tags out into a `Tag` class of their own. This is useful becuase it allows the system the possibility of managing tags in a helpful way: ("you typed 'shooping', did you mean 'shopping'?). They also made a diagram to show the user interaction before they started on the sequence and class diagrams:
 
 <img src="./img/amy-and-evelyns-diagrams.jpg" width=400 />
+
+### What Sophie did
 
 Sophie translated the user stories into user interactions:
 
