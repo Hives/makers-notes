@@ -63,7 +63,7 @@ Here's the diagrams we (me and Alex) came up with:
 <img src="./img/our-domain-model-diagrams-1.jpg" width=400 />
 <img src="./img/our-domain-model-diagrams-2.jpg" width=400 />
 
-And [here's our code](code).
+And [here's our code](notebook.rb).
 
 Amy and Evelyn took a different approach - they separated tags out into a `Tag` class of their own. This is useful becuase it allows the system the possibility of managing tags in a helpful way: ("you typed 'shooping', did you mean 'shopping'?). They also made a diagram to show the user interaction before they started on the sequence and class diagrams:
 
