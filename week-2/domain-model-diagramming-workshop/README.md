@@ -53,12 +53,12 @@ At this point someone asked 'which of these would you start with?'
 
 ## We did the exercise
 
-[The exercise description](domain-model-diagramming-exercise.md#the-exercise)
+[The exercise description](https://github.com/makersacademy/skills-workshops/tree/master/week-2/domain_model_diagramming#how-do-you-implement-a-program-using-a-domain-modelling-driven-approach)
 
 Here's the diagrams we came up with:
 
-<img src="./img/our-domain-model-diagrams-1.jpg"/>
-<img src="./img/our-domain-model-diagrams-2.jpg"/>
+<img src="./img/our-domain-model-diagrams-1.jpg" width: 400px />
+<img src="./img/our-domain-model-diagrams-2.jpg" width: 400px />
 
 Amy and Evelyn took a different approach - they separated tags out into a `Tag` class of their own. This is useful becuase it allows the system to prompt you to use particular tags which can help prevent human error: ("you typed 'shooping', did you mean 'shopping'?). They also made a diagram to show the user interaction before they started on the sequence and class diagrams:
 
