@@ -5,6 +5,7 @@ Contents:
 - [Week 2 goals](#goals)
 - [Weekly task - oyster cards](#oyster-cards)
 - [Mocking](#mocking)
+- [Workshops](#workshops)
 - [Pairing feedback](#pairing-feedback)
 
 ## <a name='goals'>Week 2 goals</a>
@@ -32,6 +33,12 @@ Monday:
 - Q: how can you test something that happens after an exception?
 - rspec predicate matchers: <https://relishapp.com/rspec/rspec-expectations/v/3-3/docs/built-in-matchers/predicate-matchers>
 
+Wednesday:
+- Alex was really not happy about using instance variables in tests. Is it
+  necessary/good practice?
+- Alex says Sophie says it's not good to test attributes in tests. How else
+  would you do it?
+
 ## <a name=mocking>Mocking</a>
 
 Lotta info here: <https://github.com/rspec/rspec-mocks>
@@ -52,7 +59,21 @@ I want to test some behaviour of ObjectA and, critically, during the execution o
 
 I want to test some behaviour of ObjectA and, critially, during the execution of that behaviour, ObjectA must call a method on ObjectB with specific arguments (sound familiar?). In my test, I don't particularly care what else happened during the test, just that in the code that was just executed the specific method was called with the correct arguments.
 
-## <a name='pairing-feedback'/>Pairing feedback</a>
+## <a name='workshops'>Workshops</a>
+
+### Domain model diagramming workshop
+
+Great workshop on domain model diagramming. [Notes here.](domain-model-diagramming-workshop)
+
+### Feedback workshop
+
+Did a workshop on giving and receiving feedback. [Notes here.](feedback-workshop.md)
+
+### Process review workshop
+
+Did a process review workshop. Got some feedback on my TDD [here](https://github.com/Hives/makers-process-reviews/tree/master/01-scrabble-scorer).
+
+## <a name='pairing-feedback'>Pairing feedback</a>
 
 ### Matvey Shuppe (Mon)
 
@@ -63,3 +84,7 @@ Didn't get none
 Jeremy liked that I was using Rubocop to help write good code,  running it frequently as we were going along. He also appreciated me helping him get a Rubocop linter up and running in VS Code.
 
 He liked how I was refactoring as we were going along, in particular grouping tests together into contexts to improve readbility of code and RSpec output.
+
+### Alex Chen
+
+Didn't get feedback again... realised there was a workshop starting and cut our session abruptly short :-/
