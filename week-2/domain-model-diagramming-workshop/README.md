@@ -60,8 +60,7 @@ The task was to make a sequence and class diagram for the user stories, and then
 
 Here's the diagrams we (me and Alex) came up with:
 
-<img src="./img/our-domain-model-diagrams-1.jpg" width=400 />
-<img src="./img/our-domain-model-diagrams-2.jpg" width=400 />
+<img src="./img/our-domain-model-diagrams-1.jpg" width=400 /><img src="./img/our-domain-model-diagrams-2.jpg" width=400 />
 
 And [here's our code](notebook.rb).
 
