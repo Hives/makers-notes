@@ -4,7 +4,9 @@
 
 <http://www.betterspecs.org/#all>
 
-Lots of best practice principles for RSpec. Warning - sometimes references RSpec 2.
+Lots of best practice principles for RSpec. I got a lotta this stuff from there.
+
+**Warning - sometimes references RSpec 2.**
 
 ## RSpec \`subject\`
 
@@ -88,7 +90,7 @@ end
 
 Good StackOverflow explanation of this [here](https://stackoverflow.com/questions/5359558/when-to-use-rspec-let/5359979#5359979).
 
-# \`before\` hook
+## \`before\` hook
 
 If you do want to use a `before` hook, be aware of the difference between:
 
