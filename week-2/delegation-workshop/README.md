@@ -18,7 +18,7 @@ When one class asks another class to do something. Important for 'SRP'
 
 ### Questions
 
-Why inject rather that call .new?  
+Why inject rather than call .new?  
 - so we can test in isolation
 - so we can change the dependency being injected without having to rewrite
 - polymorphism - when different types of objects respond to the same messages with the same type of response 
