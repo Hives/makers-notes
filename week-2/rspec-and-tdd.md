@@ -123,6 +123,8 @@ I couldn't get this to work, but might be useful for disabling tests while doing
 
 Lotta info here: <https://github.com/rspec/rspec-mocks>
 
+Arthur said this vid was good: <https://www.youtube.com/watch?v=oyMPzA-ZWkE>
+
 #### Doubles
 
 Instead of testing ObjectA against an instance of ObjectB, I use a stand in (a stuntman if you like) for ObjectB instead. ObjectA doesn't know the difference, it simply treats the double as if were an instance of ObjectB, but it's not - it's a dummy that I've set up with static (and therefore not variable) values.
