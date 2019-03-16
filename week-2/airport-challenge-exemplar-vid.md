@@ -42,6 +42,8 @@ Repo for the code written in the video is here:
 
   # etc...
   ```
+- Write good error messages like this: `Cannot do something: because of a reason. Solve
+  the problem by doing this.`
 - Good to use `context` blocks to structure your test output/documentation, but maybe leave that to the refactor phase
 - You can stub out random behaviour at a low level by using e.g. 
   ```ruby
