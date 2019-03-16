@@ -75,7 +75,8 @@ A video of someone (lol someone - Sam Morgan, the Head of Education at Makers) d
   ```
   Likewise, he refactored `planes << plane` into an `add_plane(plane)` private method, and `planes.pop` into a `remove_plane(plane)` private method.
 - `xit` - used in place of `it` to define pending tests, e.g. things that you're going to come back and implement later
-- He preferred to refactor out instance variables where possible with `attr_readers`. e.g.  since he had previous set an `attr_reader` on `@planes`, he could refer to `@planes` internally as just `planes`. Where he didn't want to make an instance variable publically accessible he set a `private` `attr_reader`, so again he could get rid of a lot of the `@`s.
+- He preferred to refactor out instance variables where possible with `attr_readers`. e.g.  since he had previous set an `attr_reader` on `@planes`, he could refer to `@planes` internally as just `planes`. Where he didn't want to make an instance variable publically accessible he set a `private` `attr_reader`, so again he could get rid of a lot of the `@`s.  
+He also considered using `private` `attr_writer` and `attr_accessor` if the instance variable was getting written inside the object.
 - In `Plane` he didn't like that he had a condition `unless flying` - he thought it would read better the other way around, so he refactored it like this:
   ```ruby
   def my_method
