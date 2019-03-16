@@ -1,12 +1,12 @@
 # Airport challenge exemplar video
 
-A video of someone doing the airport challenge, the weekend project from week 1: <https://www.youtube.com/watch?v=Vg0cFVLH_EM>
+A video of someone (lol someone - Sam Morgan, the Head of Education at Makers) doing the airport challenge, the weekend project from week 1: <https://www.youtube.com/watch?v=Vg0cFVLH_EM>
 
 - Feature/unit test driven proces:
   1. He started by converting user stories into feature tests one by one, in `spec/features/user_stories_spec.rb`
   2. When the feature test failed he wrote a unit test for the class, looking to produce the same error as the feature test
   3. Only then did he write the code to satisfy both tests.
-  - Doing it like this means you work through each successive error that the feature test throws up, writing a unit test for each one, until the feature test is implemented.
+- Doing it like this means you work through each successive error that the feature test throws up, writing a unit test for each one, until the feature test is implemented. The same goes for if you do something later on that breaks earlier tests - update your unit tests to produce the same error as the feature test, and then write the code to pass only that exact error.
 - In his unit tests he used the one liner syntax to check that `subject` was responding to a particular method before writing a test for the behaviour of that method ([but he also said he didn't like the one liner syntax, and you should only use it as scaffolding?!](https://www.youtube.com/watch?v=Vg0cFVLH_EM&t=9m26s)):
   ```ruby
   describe Airport do
