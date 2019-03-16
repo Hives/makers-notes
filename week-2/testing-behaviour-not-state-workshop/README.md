@@ -39,3 +39,6 @@ That second answer is the job or behaviour of the Diary class, so that's what yo
 1. We can TDD this without having to think much about how we will implement it (hashes, arrays, etc)
 2. We can refactor our class internals without this test failing
 3. We're testing that the class does its job, not how it does it. Encapsulation!
+
+## Exercise 1 - tic-tac-toe
+
