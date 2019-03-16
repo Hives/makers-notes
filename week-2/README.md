@@ -68,3 +68,11 @@ He liked how I was refactoring as we were going along, in particular grouping te
 ### Alex Chen
 
 Didn't get feedback again... realised there was a workshop starting and cut our session abruptly short :-/
+
+### Amy Jordan / Wardah Tarar
+
+My pair was away, so I jumped in with Amy and Wardah. In retrospect we thought 'pairing' with three people wasn't so good as it was harder to keep all 3 people engaged without one getting left behind.
+
+Wardah said she appreciated me going slowly and making an effort to keep her engaged by prompting her to add tests and code.
+
+Amy said she found me very patient and calm, good at explaining things, good at making sure any individual didn't race ahead without bringing the whole 'pair' (of three) along with them.
