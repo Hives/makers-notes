@@ -1,6 +1,9 @@
 # Airport challenge exemplar video
 
-A video of someone (lol someone - Sam Morgan, the Head of Education at Makers) doing the airport challenge, the weekend project from week 1: <https://www.youtube.com/watch?v=Vg0cFVLH_EM>
+A video of someone (lol 'someone' - Sam Morgan, the Head of Education at Makers) doing the airport challenge, the weekend project from week 1: <https://www.youtube.com/watch?v=Vg0cFVLH_EM>
+
+Repo for the code written in the video is here:
+<https://github.com/sjmog/airport_challenge_exemplar>
 
 - Feature/unit test driven proces:
   1. He started by converting user stories into feature tests one by one, in `spec/features/user_stories_spec.rb`
