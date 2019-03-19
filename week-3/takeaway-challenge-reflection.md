@@ -33,8 +33,8 @@ Tomé said:
 
 ## Mentor wisdom
 
-I asked Luca to have a look at my tests and asked him e.g. is [this](https://github.com/Hives/takeaway-challenge/blob/master/spec/takeaway_spec.rb#L14) a pointless test? He said it seemed more like a feature test than a unit test, and was maybe unnecessary... Maybe ask a coach about this...
+I asked Luca to have a look at my tests and asked him e.g. is [this](https://github.com/Hives/takeaway-challenge/blob/7d272fd8ae06c3624e29d2eb411298d38d2df82b/spec/takeaway_spec.rb#L14) a pointless test? He said it seemed more like a feature test than a unit test, and was maybe unnecessary... Maybe ask a coach about this...
 
-He also said doing e.g. [this](https://github.com/Hives/takeaway-challenge/blob/master/spec/menu_spec.rb#L16) is too complicated and assumes too much about the output. He said it would be better to just construct the actual string expected and say it should be that. He also said you should try and keep logic out of your tests - just give an input and expect an output, so no `string.split(\n)`.
+He also said doing e.g. [this](https://github.com/Hives/takeaway-challenge/blob/7d272fd8ae06c3624e29d2eb411298d38d2df82b/spec/menu_spec.rb#L16) is too complicated and assumes too much about the output. He said it would be better to just construct the actual string expected and say it should be that. He also said you should try and keep logic out of your tests - just give an input and expect an output, so no `string.split(\n)`.
 
 But he said in general it looked pretty good, my tests looked solid, and I seemed to be testing behaviour pretty well.
