@@ -7,7 +7,7 @@ This mostly applies to week 3's goal **explain how the web works** and also but 
 
 ## HTTP request cycle
 
-<img src='./img/client-server-request-response.png' width=200/>
+<img src='./img/client-server-request-response.png' style="max-width: 100%"/>
 
 **Client:** a program that accesses resources on the web, e.g. a web browser, a lot of apps, uh, a web-enabled fridge. Typically it will understand HTML, CSS and Javascript, that you send to it from your app on the server.
 
@@ -24,4 +24,4 @@ We're going to use this as a tool to explore, understand and talk about the HTTP
 Alice went throught the [first exercise](https://github.com/makersacademy/skills-workshops/tree/master/week-3/process_modelling#home-page). She used the Network tab of Chrome Developer Tools to track a complete request/response cycle, analysing the request and response headers and content.
 
 
-<img src='./img/process-model-diagram-http-request-cycle.png' width=600/>
+<img src='./img/process-model-diagram-http-request-cycle.png' style="max-width: 100%"/>
