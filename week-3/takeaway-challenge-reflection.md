@@ -16,7 +16,7 @@ I should have made more regular git commits though, to demonstrate the applicati
 
 I think this piece of work demonstrates that I understand and can apply various OOP good practices:
 
-- SRP: my classes have well-defined responsibilities, and my methods are well-named and focussed. In our code review Tomé said he found my code very easy to read for this readon.
+- SRP: my classes have well-defined responsibilities, and my methods are well-named and focussed. In our code review Tomé said he found my code very easy to read for this reason.
 - Open/closed: I tried to make my code open for extension, closed for modification. For instance the `Menu` class does have a default menu hard-coded in, but can be initialised with a different menu. This makes it more easily extensible, and also easier to test as menu test data can be injected.
 
 
@@ -30,3 +30,11 @@ Tomé said:
 - He liked my README.md - very clear instructions on how to install and run the program
 - He found my code very readable because of clear method names, and complex behaviour being refactored out into private methods
 - He thought my tests reflected a good TDD practice
+
+## Mentor wisdom
+
+I asked Luca to have a look at my tests and asked him e.g. is [this](https://github.com/Hives/takeaway-challenge/blob/master/spec/takeaway_spec.rb#L14) a pointless test? He said it seemed more like a feature test than a unit test.
+
+He also said doing e.g. [this](https://github.com/Hives/takeaway-challenge/blob/master/spec/menu_spec.rb#L16) is too complicated. He said you should try and keep logic out of your tests - just give an input and expect an output.
+
+But he said in general it looked pretty good, my tests looked solid, and I seemed to be testing behaviour pretty well.
