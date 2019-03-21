@@ -7,9 +7,9 @@ Feedback is one of the XP values (what's that?)
 
 ### What is feedback?
 
-- information about reactions to a product, a person's peformance of a task, or behaviour which is used a basis for improvement
+- information about reactions to a product, a person's performance of a task, or behaviour which is used a basis for improvement
 
-### Why is feedback so diffcult?
+### Why is feedback so difficult?
 
 Love and acceptance vs. Learning and growth
 
@@ -30,12 +30,12 @@ Self-protection
 5 points:
 
 1. Shift your perspective
-  - Morpheus meme: "what if i told you, there is no +ve or -ve feedback? only feedback"
+  - Morpheus meme: "what if I told you, there is no +ve or -ve feedback? only feedback"
   - Spongebob meme: "feedback is 🌈kind🌈!"
 2. Empower receiver
   - gatekeeper
-  - helps us understand ourselves, profile, blind spots #freetherapy
-  - helps us practive assertiveness, boundaries, cultivate authentic and equal relationships
+  - helps us understand ourselves, profile, blind spots #free-therapy
+  - helps us proactive assertiveness, boundaries, cultivate authentic and equal relationships
   - improve work life and overall quality of life
 3. Know thyself
   - 3 feedback triggers:
@@ -59,7 +59,7 @@ Self-protection
       - A: Actionable (avoid vague adjectives like good/bad, give them something they can act on)
       - S: Specific (be specific enough for them to come up with steps to improve)
       - K: 🌈Kind🌈 (this one should be most obvious but is often the last consideration. It's hard to receive feedback it it's unkind.)
-    - 4-part Nonviolent Communication Process
+    - 4-part Non-violent Communication Process
       - Observation
       - Feeling
       - Need
@@ -73,12 +73,12 @@ Self-protection
     - be direct and respectful
     - aim to help them grow, feedback is 🌈kind🌈
   - Tips for receiving feedback:
-    - make youre you're in the right headspace, decline if not
+    - make you're you're in the right head space, decline if not
     - know your profile
     - try to listen attentively with an open mind
     - know that you (we all) have blind spots
-    - be awere of triggers
+    - be aware of triggers
     - take your time to weight and respond to feedback
-    - know your boundaries and reject feedback respectfully if after weightin it carefully you do not wish to take it on board
+    - know your boundaries and reject feedback respectfully if after weighing it carefully you do not wish to take it on board
     - if you take it on board, decide what you're going to do about it
     - thank the feedback giver because feedback is 🌈kind🌈
