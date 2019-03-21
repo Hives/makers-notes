@@ -48,3 +48,11 @@ The week's main work is to build a simple web app: <https://github.com/makersaca
 ### Sam - Monday
 
 It wasn't real pairing as we had a bunch of stuff to read and learn rather than an exercise to work on, but Sam said she found me a good person to work with - good at explaining things and happy to work through things slowly even through I knew quite a bit of html and css already. She said she was looking forward to when we could pair properly on an exercise together!
+
+### Matt - Tues
+
+He was away so I worked on my own
+
+### Tomé - Wednesday
+
+Tomé said he learnt a lot from working with me, but at the end of the afternoon we started working independently, checking in when we completed each stage, and he said he would have preferred to carry on working together on the same computer as we would have been more engaged together, and he could have learnt more. This was my fault! Partly I was just got carried away with writing my own code... I won't do this again!
