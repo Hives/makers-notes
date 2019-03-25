@@ -43,6 +43,7 @@ Skills:
 
 The week's main work is to build a simple web app: <https://github.com/makersacademy/course/tree/master/intro_to_the_web>
 
+
 ## <a name='pairing-feedback'>Pairing feedback</a>
 
 ### Sam - Monday
@@ -56,3 +57,11 @@ He was away so I worked on my own
 ### Tomé - Wednesday
 
 Tomé said he learnt a lot from working with me, but at the end of the afternoon we started working independently, checking in when we completed each stage, and he said he would have preferred to carry on working together on the same computer as we would have been more engaged together, and he could have learnt more. This was my fault! Partly I was just got carried away with writing my own code... I won't do this again!
+
+### Andrew - Thursday
+
+He didn't come in, so I just worked on my birthday app thing
+
+### Amy - Friday
+
+Lots of good feedback from Amy - she said she like pairing with me because I have lots of good knowledge which I'm able to share and explain clearly, but I was also happy to go at a slower pace, reading over the learning material, and allowing her to try different things out when she was learning. She said she felt like she made good progress working with me.
