@@ -19,10 +19,30 @@ An exercise to learn three things:
 - Primary key is for ever!
 - Data restriction rules - you can set columns to store data in a particular format
 - PG gem - connect to database in Ruby
-- Foreign keys. E.g in the image below, the customer ID in the order table is the primary key from the customre table. That's called a foreign key.
+- Foreign keys. E.g in the image below, the customer ID in the order table is the primary key from the customer table. That's called a foreign key.
 
-<img src=img/related-tables.jpg />
+<img src=img/related-tables.jpg>
 
 ## Class responsibility cards
 
-Another way of modelling your domain. Shows 'responsbilities' and 'collaborators' for your classes.
+Another way of modelling your domain. Shows 'responsbilities' and 'collaborators' for your classes. They were devised to facilitate modelling a domain in an object-oriented, but they often map closely onto database structure too.
+
+[Here's a good introduction](http://agilemodeling.com/artifacts/crcModel.htm)
+
+## The exercise
+
+The instructions are in the [workshop README](https://github.com/makersacademy/skills-workshops/tree/master/week-4/databases_2#instructions).
+
+We basically had to make CRC cards to analyse the objects in the user stories, and then from that design the databases we would need.
+
+Here's my CRC cards and database tables (this is after Katerina showed us how she would do it):
+
+<img src=img/exercise-diagrams.jpg width=400>
+
+Note the use of a **join table** for the tags - because it's a many to many relationship we create a table where each record represents a link between a tag and a student.
+
+There was some debate about whether we needed the `StudentManager` class - Katerina seemed adament she didn't want it, but many of us couldn't see where in our program the listing and filtering methods would 'live'. I guess the listing and filtering would be just be a SQL query, but they still need to live somewhere... inside a method in a `StudentManager` class?! Where else??
+
+Here's Katerina's CRC diagrams:
+
+<img src=img/katerinas-crc-diagrams.jpg width=400>
