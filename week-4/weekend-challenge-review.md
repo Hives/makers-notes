@@ -5,6 +5,6 @@
 
 ## Reflections
 
-Hard to write tests before you've written the code sometimes. Solution = more planning! Probably useful for my reactoring issue too.
+Hard to write tests before you've written the code sometimes. Solution = more planning! Probably useful for my refactoring issue too.
 
-"BUild refactoring into your workflow"
+"Build refactoring into your workflow"
