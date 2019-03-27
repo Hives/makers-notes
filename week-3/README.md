@@ -4,7 +4,6 @@ Contents:
 
 - [Week 3 goals](#goals)
 - [Challenges](#intro-to-the-web)
-- [Pairing feedback](#pairing-feedback)
 
 ## <a name='goals'>Week 3 goals</a>
 
@@ -43,25 +42,3 @@ Skills:
 
 The week's main work is to build a simple web app: <https://github.com/makersacademy/course/tree/master/intro_to_the_web>
 
-
-## <a name='pairing-feedback'>Pairing feedback</a>
-
-### Sam - Monday
-
-It wasn't real pairing as we had a bunch of stuff to read and learn rather than an exercise to work on, but Sam said she found me a good person to work with - good at explaining things and happy to work through things slowly even through I knew quite a bit of html and css already. She said she was looking forward to when we could pair properly on an exercise together!
-
-### Matt - Tues
-
-He was away so I worked on my own
-
-### Tomé - Wednesday
-
-Tomé said he learnt a lot from working with me, but at the end of the afternoon we started working independently, checking in when we completed each stage, and he said he would have preferred to carry on working together on the same computer as we would have been more engaged together, and he could have learnt more. This was my fault! Partly I was just got carried away with writing my own code... I won't do this again!
-
-### Andrew - Thursday
-
-He didn't come in, so I just worked on my birthday app thing
-
-### Amy - Friday
-
-Lots of good feedback from Amy - she said she like pairing with me because I have lots of good knowledge which I'm able to share and explain clearly, but I was also happy to go at a slower pace, reading over the learning material, and allowing her to try different things out when she was learning. She said she felt like she made good progress working with me.

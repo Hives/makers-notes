@@ -12,7 +12,6 @@
   - More important to learn are **processes** + **behaviours/mindset**, because the first two are usually googleable!
 - [Mentor wisdom](#mentor-wisdom)
   - Keep track of feedback from pairing partners as you go along, as it can be useful evidence to include in your portfolio
-- [Pairing feedback](#pairing-feedback)
 
 ## Week 1 goals <a name="goals"></a>
 
@@ -104,31 +103,3 @@ Luca said that his cohort is currently working on their portfolio, which is a do
 He advised that it's a good idea to be keeping track of this stuff as you go along, by making notes of what goals you're working on week by week and what evidence you've got to say you've achieved them, as it will be much more difficult to extract that evidence from the work we're doing now in eight weeks time!
 
 Here's Luca's portfolio, jam-packed with well-evidenced goodness: <https://github.com/punchcafe/makers_portfolio>
-
-## Pairing feedback <a name="pairing-feedback"></a>
-
-### Matt Thompson (Wed)
-
-Matt said he found that I gave clear explanations of some concepts. For example my explanation of instance variables and `attr_reader` was very helpful in helping him to understand them. He also appreciated my patience when we were going over areas like that that he didn't understand yet.
-- Evidence of: good explanations shows understanding of concepts
-- Evidence of: patience when pair is coming to understanding = good pairing
-
-I appreciated Matt's pairing technique. We did a relaxed ping-pong method, not strictly alternating after writing every test, but making sure to alternate frequently so that we both remained engaged, at Matt's prompting.
-- I learnt: some good pairing practice
-
-### James Palmer (Thurs)
-
-James said he appreciated the ping-pong pairing technique I introduced him to. He said my prompting to swap the keyboard at short intervals as we alternated writing tests and code was effective in keeping both of us engaged, and not zoning out. It also meant we both had practice writing both the code and the tests.
-- Evidence of: good pairing
-
-James also said he appreciated that I sometimes went back and wrote further tests for features we had already implemented to reveal deficiencies in our implementation, forcing us improve our code to meet the spec.
-- Evidence of: good TDD practice
-
-James pulled us out of a rabbit hole at one point by suggesting we use the exercise's 'walk through' help. We had spent around 20 minutes pursuing a particular path but didn't feel we were making substantial progress. After checking the walk through we realised there was a better approach and got back on track.
-- I learnt: unblocking yourself by using available resources
-
-### Harry Galliano (Friday)
-
-> When pairing with you yesterday for the brief two hours that we had to work with I found it to be a very different type of pairing session than the other days of the week, this is because you were so much further ahead of me and i was playing catchup. This was actually very good for me in my eyes (potentially not great for you, as you were going back over things that you had done just a day before) because i really feel i learnt more about TDD and SRP than I had done on any of the other days.
->
-> You were a really patient partner which was fantastic as you already seem to know lots about programming and you were very calm the whole way through the afternoon which really helped me to keep going and keep focused. I think the thing you did best was that you would always get me to try my ideas, even when they didn't work, this was great for me being able to visualise exactly why some of my ideas didn't work and you were then kind enough to explain the syntax to me, which was fantastic.
