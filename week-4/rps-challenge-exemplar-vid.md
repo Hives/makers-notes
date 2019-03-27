@@ -1,11 +1,16 @@
 # Rock Paper Scissors Challenge exemplar video
 
-A video of someone doing the airport challenge, the weekend project from week 3: <https://www.youtube.com/watch?v=GoHKmartBYo>
+A video of someone doing the Rock Paper Scissors challenge, the weekend project from week 3: <https://www.youtube.com/watch?v=GoHKmartBYo>
 
 Repo for the code written in the video is here:
 <https://github.com/makersacademy/rps-exemplar>
 
 - She did `rspec-sinatra init --app RPS app.rb` at the start - what's that?
+
+  It's this: <https://github.com/tansaku/rspec-sinatra>
+
+  A Gem to initialize an rspec environment for a sinatra application, using capybara.
+
 - She wrote a test for the computer's choice like this:
   ```ruby
   scenario 'game chooses "Rock"' do
@@ -22,6 +27,7 @@ Repo for the code written in the video is here:
     end
   end
   ```
+
 - She started by storing the player name, chosen shape and opponent's chosen shape in the `session` like this:
   ```ruby
   get '/play' do
@@ -86,3 +92,39 @@ Repo for the code written in the video is here:
   end
   ```
   So much simpler than what I did :grimacing:
+
+- She used `srand` to ensure the randomised behaviour was predictable in her tests. Seems simple enough - you just do `srand PLAY_SEED` where `PLAY_SEED` is set to some number, and after that all your 'random' behaviour comes out the same every time. See [the docs here](https://ruby-doc.org/core-2.0.0/Random.html#method-c-srand).
+
+  This allowed her to use something like `options.sample` to choose the option. Because I was stubbing out the behaviour of `Kernel.rand` in my tests I had to use random numbers in my model. This method is nicer, as using `options.sample` is a bit more readable.
+  
+- This was a nice neat API:
+  ```ruby
+  class Turn
+    GAME_RULES = {
+        rock: {rock: :draw, paper: :lose, scissors: :win},
+        paper: {rock: :win, paper: :draw, scissors: :lose},
+        scissors: {rock: :lose, paper: :win, scissors: :draw}
+    }
+  
+    # ....
+  
+    def win?
+        result == :win
+    end
+    
+    def lose?
+        result == :lose
+    end
+    
+    def draw?
+        result == :draw
+    end
+    
+    private
+    
+    def result
+        return if @opponent_shape.nil?
+        GAME_RULES[@player_shape][@opponent_shape]
+    end
+  end
+  
