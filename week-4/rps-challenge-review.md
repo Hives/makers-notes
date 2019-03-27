@@ -1,7 +1,7 @@
 # Weekend challenge review
 *Mon 25 Mar*  
 *Coach: Katerina*  
-*[Project - RPS challenge](https://github.com/Hives/birthday-app)*
+*[Project - RPS challenge](https://github.com/Hives/rps-challenge)*
 
 ## Reflections
 
