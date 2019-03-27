@@ -11,7 +11,7 @@ Repo for the code written in the video is here:
 
   A Gem to initialize an rspec environment for a sinatra application, using capybara.
 
-- She wrote a test for the computer's choice like this:
+- I thought the way she wrote this test for the computer's choice was interesting:
   ```ruby
   scenario 'game chooses "Rock"' do
     click_button 'Rock'
@@ -37,7 +37,7 @@ Repo for the code written in the video is here:
     erb :play
   end
   ```
-  She thought this was too much stuff going on in a view, so she replaced the three assignments with one assignment to a `Turn` model, into which she passed the `session`, like this:
+  But later she thought this was too much stuff going on in a view, so she replaced the three assignments with one assignment to a `Turn` model, into which she passed the `session`, like this:
   ```ruby
   get '/play' do
     @turn = Turn.new(session)
