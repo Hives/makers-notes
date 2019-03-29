@@ -80,20 +80,26 @@ Lots of good feedback from Amy - she said she like pairing with me because I hav
 
 ### James Davies - Tuesday
 
-#### What went well?
+> #### What went well?
+>
+> We found a good rhythm, with implementing tests. You stopped me from going off on a tangent at one point and reeled it in to follow a proper step by step TDD process. TDD is something I struggle to carry out sometimes as I like to “play” with code.
+>
+> Took your time to explain/look into things which I question, especially the erb syntax for `<%=` and `<%` and the difference between the two.
+>
+> #### What could he improve on for next time?
+>
+> We could have stopped and discussed what we had just implemented and wrote some notes/readme even if its a few words. This will help for our portfolios, etc. Git commits lacking!
+> 
+> #### Quick wins/ aka fishing for compliments
+>
+> You are easy to talk to, good conversation before we even started meant we had broken the ice beforehand.
+>
+> I appreciated the you look at me when you talk, as lip reading is so important to me.
+>
+> Good studying session before work.
 
-We found a good rhythm, with implementing tests. You stopped me from going off on a tangent at one point and reeled it in to follow a proper step by step TDD process. TDD is something I struggle to carry out sometimes as I like to “play” with code.
+### Arthur Ashman
 
-Took your time to explain/look into things which I question, especially the erb syntax for `<%=` and `<%` and the difference between the two.
+Good session - we got a bit stuck going through the walkthrough for encapsulating database data in an object, but we got up a good ping-pong rhythm on the next part, deleting bookmarks.
 
-#### What could he improve on for next time?
-
-We could have stopped and discussed what we had just implemented and wrote some notes/readme even if its a few words. This will help for our portfolios, etc. Git commits lacking!
-
-#### Quick wins/ aka fishing for compliments
-
-You are easy to talk to, good conversation before we even started meant we had broken the ice beforehand.
-
-I appreciated the you look at me when you talk, as lip reading is so important to me.
-
-Good studying session before work.
+Arthur said I was very patient when we were going through things that he didn't understand, and he appreciated going at a slower pace as it helps you understand the material better.
