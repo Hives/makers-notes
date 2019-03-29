@@ -2,6 +2,8 @@
 *Afternoon challenge for Week 4*  
 *[Exercise details](https://github.com/makersacademy/course/tree/master/bookmark_manager)*
 
+I went through all the challenges and walkthroughs on Friday morning (29 Mar) in preparation for the weekend challenge. At that point I'd got as far as stage 13, more or less, so the notes after that point were based on skimming the challenges and recording what was involved.
+
 ## 1: Analysis
 
 Use user stories!!! And other anlysis tools - domain model diagramming, CRC diagarms, class diagrams. Good planning will probably help you avoid getting into endless refactor hell
