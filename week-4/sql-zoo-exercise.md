@@ -47,26 +47,20 @@ There's also the wild-card `_` which matches for any single character. So this w
 SELECT name FROM world WHERE name LIKE '_t%'
 ```
 
-You can use `concat` to make more complex matchers, e.g. matching one column with data from another:
+You can use `concat` to make more complex matchers, e.g. matching one column with data from another. So this will return the name of countries where the `capital` column starts with the `name`, and has some other string tagged on the end **(which could be the empty string)**.
+
 
 ```sql
 SELECT capital, name
   FROM world
  WHERE capital LIKE concat(name, '%');
- ```
+```
 
- So this wil return the name of countries where the `capital` column starts with the `name` and has some other string tagged on the end.
+`REPLACE` performs substring substitution. `REPLACE(f, s1, s2)` will return the string `f` with all occurances of `s1` replaced with `s2`. Hence this will select all countries where the `capital` starts with the `name` but is extended by a least one character, and return the `name` and the extension (think about it...):
 
- `REPLACE` performs substring substitution. `REPLACE(f, s1, s2)` will return the string `f` with all occurances of `s1` replaced with `s2`. Hence this will return 
+```sql
+SELECT name, REPLACE(capital, name, '')
+ FROM world
+WHERE capital LIKE concat(name, '_%')
+```
 
- For Monaco-Ville the name is Monaco and the extension is -Ville.
-
-Show the name and the extension where the capital is an extension of name of the country.
-
-You can use the SQL function REPLACE. 
-
- ```sql
- SELECT name, REPLACE(capital, name, '')
-  FROM world
- WHERE capital LIKE concat(name, '_%')
- ```
