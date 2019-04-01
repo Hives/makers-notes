@@ -2,11 +2,11 @@
 *Afternoon challenge for Week 4*  
 *[Exercise details](https://github.com/makersacademy/course/tree/master/bookmark_manager)*
 
-I went through all the challenges and walkthroughs on Friday morning (29 Mar) in preparation for the weekend challenge. At that point I'd got as far as stage 13, more or less, so the notes after that point were based on skimming the challenges and recording what was involved.
+I went through all the challenges and walk-through on Friday morning (29 Mar) in preparation for the weekend challenge. At that point I'd got as far as stage 13, more or less, so the notes after that point were based on skimming the challenges and recording what was involved.
 
 ## 1: Analysis
 
-Use user stories!!! And other anlysis tools - domain model diagramming, CRC diagarms, class diagrams. Good planning will probably help you avoid getting into endless refactor hell
+Use user stories!!! And other analysis tools - domain model diagramming, CRC diagrams, class diagrams. Good planning will probably help you avoid getting into endless refactor hell
 
 ## 2: Set up
 
@@ -14,7 +14,7 @@ Get environment up and running and your first page up by feature testing a simpl
 
 - [The Ruby Web Project Setup List (Pill)](https://github.com/makersacademy/course/blob/master/pills/ruby_web_project_setup_list.md)
 - [Makers rubocop config](https://github.com/makersacademy/scaffolint)
-- [Rspec-sinatra](https://github.com/tansaku/rspec-sinatra): a gem to set up RSpec for a Sinatra project
+- [rspec-sinatra](https://github.com/tansaku/rspec-sinatra): a gem to set up RSpec for a Sinatra project
 
 ## 3: First real page - Bookmarks index
 
@@ -38,11 +38,11 @@ Refactor using MVC principles:
 
 - Why use class methods? Maybe read [this page on class and instance methods in Ruby](http://www.railstips.org/blog/archives/2009/05/11/class-and-instance-methods-in-ruby/)
 - [RESTful routes (pill)](https://github.com/makersacademy/course/blob/master/pills/rest.md)
-- [sjmog's README for his game about RESTful routes](https://github.com/sjmog/rest/blob/master/docs/README.md) - useful for thinking about **states** vs. **state transitions**
+- [Sam Morgan's README for his game about RESTful routes](https://github.com/sjmog/rest/blob/master/docs/README.md) - useful for thinking about **states** vs. **state transitions**
 
 ## 4, 5, 6: Set up database
 
-Using PosqtgreSQL.
+Using PostgreSQL.
 
 - [PostgreSQL tutorial cheat sheet (much more detail)](http://www.postgresqltutorial.com/postgresql-cheat-sheet/)
 - [SQL all on one page](http://www.cheat-sheets.org/sites/sql.su/)
@@ -56,7 +56,7 @@ CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
 
 ... or whatever. Then we add it to the installation instructions in our README, e.g:
 
-1. connect to psql
+1. connect to `psql`
 2. create the database
 3. connect to the database
 4. run the query from `01_create_bookmarks_table.sql`
@@ -76,7 +76,7 @@ We set up a testing database separate from our development database. The testing
 
 ### How did we do this?
 
-- Use an environment variable to tell us we're in the test environment. There are different ways of doing this, but in the walkthrough they put this in `spec_helper.rb`:
+- Use an environment variable to tell us we're in the test environment. There are different ways of doing this, but in the walk-through they put this in `spec_helper.rb`:
   ```ruby
   ENV['ENVIRONMENT'] = 'test'
   ```
@@ -148,13 +148,13 @@ After this we refactored creating bookmarks to require a title as well as a url.
 
 ## 11.2 Wrapping database objects in program objects
 
-[Here's the walkthrough for this stage](https://github.com/makersacademy/course/blob/master/bookmark_manager/walkthroughs/11.md)
+[Here's the walk-through for this stage](https://github.com/makersacademy/course/blob/master/bookmark_manager/walkthroughs/11.md)
 
 They created a `Bookmark#initialize` method so that they could instantiate `bookmark` objects using data from the database. Then they updated `Bookmark.create` to return a `bookmark` object corresponding to the record that had just been added to the database, and used this in the expectations in their feature tests.
 
 ## 12: CRUD, deleting bookmarks
 
-[Walkthrough](https://github.com/makersacademy/course/blob/master/bookmark_manager/walkthroughs/12.md)
+[Walk-through](https://github.com/makersacademy/course/blob/master/bookmark_manager/walkthroughs/12.md)
 
 Using TDD, RESTful routes, and Sinatra's `:method_override`, they implemented a `delete '/bookmarks/:id'` route to delete bookmarks, as well as a `Bookmark.delete` method with unit and feature tests.
 
@@ -216,17 +216,17 @@ This will involved a join table.
 Challenge summary:
 
 > Complete a user registration feature:
-> 
+>
 > - Update the Rake tasks to set up a users table.
 > - Write a feature test for user registration.
 > - Taking inspiration from Bookmark, write a User class with a method, create, which is called during registration.
 > - When the user is created, store the user ID in the session.
 > - Whenever the user's information is to be displayed to the user, .find the current user from the database using the ID stored in session.
-> 
+>
 > Ensure the user password is stored securely: not as a plain text string.
 
 - They used a RESTful route `users/new` to present the registration form
-- Uhhhh an awful lot of stuff in this [walkthrough](https://github.com/makersacademy/course/blob/master/bookmark_manager/walkthroughs/18.md)! How to encrypt and store passwords properly etc.
+- Uhhhh an awful lot of stuff in this [walk-through](https://github.com/makersacademy/course/blob/master/bookmark_manager/walkthroughs/18.md)! How to encrypt and store passwords properly etc.
 
 ## 19: Authentication
 
