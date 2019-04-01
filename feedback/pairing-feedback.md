@@ -76,8 +76,6 @@ Lots of good feedback from Amy - she said she like pairing with me because I hav
 
 ## Week 4 (beginning 25 March)
 
-## <a name='pairing-feedback'>Pairing feedback</a>
-
 ### James Davies - Tuesday
 
 > #### What went well?
@@ -103,3 +101,9 @@ Lots of good feedback from Amy - she said she like pairing with me because I hav
 Good session - we got a bit stuck going through the walkthrough for encapsulating database data in an object, but we got up a good ping-pong rhythm on the next part, deleting bookmarks.
 
 Arthur said I was very patient when we were going through things that he didn't understand, and he appreciated going at a slower pace as it helps you understand the material better.
+
+## Week 5 (beginning 1 April)
+
+### Lauren - Monday
+
+Bit of a rushed reflection as I was off to a process workshop. Lauren said I was very patient, allowing her to work through new things and come to a good understanding rather than rushing through. She also said my explanations helped her understand some of the new concepts, like the difference between classes/objects in Ruby and JavaScript, and e.g. JavaScript's `.prototype`.

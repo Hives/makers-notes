@@ -2,7 +2,7 @@
 
 Contents:
 
-- [Week 3 goals](#goals)
+- [Week 4 goals](#goals)
 - [Challenges](#challenges)
 - [Pairing feedback](#pairing-feedback)
 
@@ -14,7 +14,7 @@ By the end of the week, the goal is to be able to answer "yes" to the week's pri
 
 - Can you build a web app that uses a database?
 
-## <a name='goals'>Bookmark manager</a>
+## <a name='challenges'>Bookmark manager</a>
 
 This week, you will build a web app that stores web bookmarks in a database: <https://github.com/makersacademy/course/blob/master/bookmark_manager/00_challenge_map.md>
 
