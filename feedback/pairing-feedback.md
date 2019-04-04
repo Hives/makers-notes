@@ -107,3 +107,7 @@ Arthur said I was very patient when we were going through things that he didn't 
 ### Lauren - Monday
 
 Bit of a rushed reflection as I was off to a process workshop. Lauren said I was very patient, allowing her to work through new things and come to a good understanding rather than rushing through. She also said my explanations helped her understand some of the new concepts, like the difference between classes/objects in Ruby and JavaScript, and e.g. JavaScript's `.prototype`.
+
+### Amy - Wednesday
+
+> You are a very calm and steady partner to work with, always willing to share your knowledge and time with everyone from the cohort. In today's session, as you were already comfortable with the initial subject area, I really appreciated that you were happy to go at a pace that worked for me, as a total newbie to this topic. It was great that you led the session while still providing time and space for me to work things out. I felt there was a good balance of giving me enough time/space (and then prompters) to work something out and then showing me something in action when I got stuck - the mix of the two helped me cement my understanding throughout the afternoon. Likewise, when we got onto content we both weren't familiar in, we worked together actively, sharing ideas and trying things out to see how things might work - this was fun! Equally when we had a different ideas about how something might go, we were both comfortable to share and discuss before settling on a way forward. You're a great pair and a pleasure to work with :slightly_smiling_face:
