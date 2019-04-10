@@ -38,9 +38,12 @@ It's all about [Makers Bnb](https://github.com/andrewmclelland23/makers-bnb).
 
 ### Notes, Wednesday morning
 
-- We've compled our MVP sprint, need to plan our next one. What's our next goal?
+- [Scrum diagram off Wikipedia][scrum]
+- We've completed our MVP sprint, need to plan our next one. What's our next goal?
 - Should we do a sprint retrospective?
 - Get user flows working right - check against mockups, make sure all pages are accessible via navigation
-- Code quaity review?
+- Code quality review?
 - Travis CI
 - Do I need to document/communicate what I've done on the html and css so other team members can create similar templates?
+
+[scrum]: https://en.wikipedia.org/wiki/Scrum_(software_development)#/media/File:Scrum_Framework.png
