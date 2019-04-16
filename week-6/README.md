@@ -53,7 +53,7 @@ By the end of the week all developers can build tested, easy-to-change software 
 ## <a name='challenges'>Challenges</a>
 
 It's all about Makers Bnb.
-- [Makers repo](https://github.com/makersacademy/course/tree/master/makersbnb)
+- [Makers repo](https://github.com/makersacademy/course/tree/master/makersbnb   )
 - [Our repo](https://github.com/andrewmclelland23/makers-bnb)
 
 ### Notes, Wednesday morning
@@ -67,3 +67,14 @@ It's all about Makers Bnb.
 - Do I need to document/communicate what I've done on the html and css so other team members can create similar templates?
 
 [scrum]: https://en.wikipedia.org/wiki/Scrum_(software_development)#/media/File:Scrum_Framework.png
+
+### Reflectionz
+
+- Best thing we did was when we were working on filtering booked dates out of the range of dates presented in the datepicker. My team was working on the Ruby back end which spat the dates out into a `data-` attribute in the date form, and the other team was working on the front end which would pull the dates into the datepicker UI. We agreed the format of how this would would work in advace, and both worked on it at the same time. When we both merged our branches it worked. Felt good man
+- Not so good - no code reviews, code quality was getting pretty shonky I think...
+- Kanban updating fell by the wayside a bit
+- MVP 2-day sprint went very well. Achieved everything we wanted. Good communication at beginnig middle and end of day to make sure we were all working well together.
+
+Technical stuff
+- Had a git nightmare this morning - ended up having to write my email code three times because I kept losing it?!?!?
+- Dependency injection in Sinatra - [here's what I came up with](https://github.com/makers-bnb/makers-bnb/commit/00bd9f1b235700b67c390123a69e4691525826c5). Must be a better way?
