@@ -111,3 +111,27 @@ Bit of a rushed reflection as I was off to a process workshop. Lauren said I was
 ### Amy - Wednesday
 
 > You are a very calm and steady partner to work with, always willing to share your knowledge and time with everyone from the cohort. In today's session, as you were already comfortable with the initial subject area, I really appreciated that you were happy to go at a pace that worked for me, as a total newbie to this topic. It was great that you led the session while still providing time and space for me to work things out. I felt there was a good balance of giving me enough time/space (and then prompters) to work something out and then showing me something in action when I got stuck - the mix of the two helped me cement my understanding throughout the afternoon. Likewise, when we got onto content we both weren't familiar in, we worked together actively, sharing ideas and trying things out to see how things might work - this was fun! Equally when we had a different ideas about how something might go, we were both comfortable to share and discuss before settling on a way forward. You're a great pair and a pleasure to work with :slightly_smiling_face:
+
+## Week 6 - Makers BnB group week
+
+Didn't get any pairing feedback
+
+## Week 7 - Revenge of JavaScript
+
+### Riya - Monday
+
+### Wardah - Tuesday
+
+> Wardah Tarar [6:10 PM]
+> It was a great pairing session.
+> 
+> - We covered a lot of things of things in a short time span
+> - Got to learn a lot from you.
+> - Feel much comfortable about JavaScript.
+> - You’ve got a great understanding of JS.
+> - You patiently waited for me to figure out my approach first, before improving on it (edited)
+> 
+> Wardah Tarar [6:19 PM]
+> - You were open to repeating the steps again and made sure that I understand everything
+> - Let me practice the JS code
+> - Kept giving me tips on improving the code/best practices
