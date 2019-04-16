@@ -3,7 +3,7 @@
 Contents:
 
 - [Week 5 goals](#goals)
-- [Challenges](#challenges)
+- [Workshops](#workshops)
 
 ## <a name='goals'>Week 5 goals</a>
 
@@ -38,4 +38,11 @@ By the end of the week, the goal is to be able to answer "yes" to the week's pri
 
 Think about how you know to do stuff in languages that you do know.
 
-## <a name='challenges'>Challenges</a>
+## <a name='workshops'>Workshops</a>
+
+*[Week 5 skills workshops folder](https://github.com/makersacademy/skills-workshops/tree/master/week-5)*
+
+Including:
+- [Understanding the `this` keyword](https://github.com/makersacademy/skills-workshops/tree/master/week-5/getting_visibility_to_understand_the_this_keyword)
+- [Debugging in JavaScript, including using `debugger`](https://github.com/makersacademy/skills-workshops/tree/master/week-5/following_the_flow_and_getting_visibility_in_javascript)
+
