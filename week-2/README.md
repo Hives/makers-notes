@@ -43,11 +43,11 @@ Wednesday:
 
 ### Domain model diagramming workshop
 
-Great workshop on domain model diagramming. [Notes here.](domain-model-diagramming-workshop)
+Great workshop on domain model diagramming. [Notes here.](workshops/domain-model-diagramming-workshop)
 
 ### Feedback workshop
 
-Did a workshop on giving and receiving feedback. [Notes here.](feedback-workshop.md)
+Did a workshop on giving and receiving feedback. [Notes here.](workshops/feedback-workshop.md)
 
 ### Process review workshop
 

@@ -59,7 +59,7 @@ Alice led a debugging workshop. There was an exercise to go with it where you ha
 
 (The exercise is on Diode too: <https://diode.makersacademy.com/students/Hives/projects/4531>)
 
-I took notes, including a detailed explanation of using a methodical debugging practice to isolate and fix the first two bugs: [debugging workshop notes](debugging-workshop.md). I asked Alice for feedback on my explanation of fixing the first bug, and she said this:
+I took notes, including a detailed explanation of using a methodical debugging practice to isolate and fix the first two bugs: [debugging workshop notes](workshops/debugging-workshop.md). I asked Alice for feedback on my explanation of fixing the first bug, and she said this:
 
 > I read this yesterday actually, and loved it. I think you described the process well, and can definitely see that you get the debugging process.
 
