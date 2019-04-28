@@ -120,6 +120,8 @@ Didn't get any pairing feedback
 
 ### Riya - Monday
 
+> I also enjoyed our pairing session on Monday - I learned so much from it! I really appreciate your patience when I was trying to figure out how everything works. When I was faced with a problem, you pushed me in the right direction by asking me the right questions instead of spoon-feeding the answer to me - I think that is the best way to help a pair learn. You explained difficult concepts (the module and constructor/prototype patterns) very well - by the end of our session I was able to explain how the module pattern works to someone else - you’re an excellent teacher! I also really liked how we spent some time trying out how the examples worked, changed a few things to see how the outcome changes etc before getting stuck into the task. This was really helpful to understand the concept and then apply it to the note app. Thank you for a very helpful afternoon!
+
 ### Wardah - Tuesday
 
 > Wardah Tarar [6:10 PM]
